@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Time!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png" width="125px" /></a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Početna</a></li>
+              <li><a href="filmovi.html" target="_blank">Filmovi</a></li>
+              <li><a href="dodajFilmove.html">Dodaj filmove</a></li>
+              <li><a href="account.html">Moj nalog</a></li>
+            </ul>
+          </nav>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>MOVIE TIME!<br />Podgorica</h1>
+            <p>
+              Pridruzite nam se uz najbolje filmove u Movie Time bioskopima!
+            </p>
+            <a href="" class="btn">Prikazi filmove &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------Featured products------>
+    <div class="small-container">
+      <h2 class="title">Top Filmovi</h2>
+      <div class="row" id="topMovies">
+        <div class="row">
+          <div class="col-4">
+              <img src="images/top-1.jpg" alt="">
+              <p>POČETAK PRIKAZIVANJA FILMA: 09.11.2022</p>
+              <h4>CRNI PANTER: VAKANDA ZAUVIJEK</h4>
+              <div class="rating">
+                  <i class="fa-solid fa-ticket"></i>
+              </div>
+          </div>
+          <div class="col-4">
+              <img src="images/top-2.jpg" alt="">
+              <p>POČETAK PRIKAZIVANJA FILMA: 09.11.2022</p>
+              <h4>DIVLJA NOC</h4>
+              <div class="rating">
+                  <i class="fa-solid fa-ticket"></i>
+              </div>
+              <br>
+          </div>
+          <div class="col-4">
+              <img src="images/top-3.jpg" alt="">
+              <p>POČETAK PRIKAZIVANJA FILMA: 09.11.2022</p>
+              <h4>LAMBORGINI: ČOVJEK KOJI JE STVORIO LEGENDU</h4>
+              <div class="rating">
+                  <i class="fa-solid fa-ticket"></i>
+              </div>
+          </div><div class="col-4">
+              <img src="images/top-4.jpg" alt="">
+              <p>POČETAK PRIKAZIVANJA FILMA: 09.11.2022</p>
+              <h4>MAČAK U ČIZMAMA: POSLJEDNJA ŽELJA</h4>
+              <div class="rating">
+                  <i class="fa-solid fa-ticket"></i>
+              </div>
+          </div>
+      </div>
+      </div>
+      <h2 class="title">Dogadjaji i akcije</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/akcija-2.jpg" alt="" />
+          <h4>LADIES NIGHT UZ FILM O VITNI HJUSTON</h4>
+          <p>SRIJEDA, 21. DECEMBAR 2022. U 20H</p>
+        </div>
+        <div class="col-4">
+          <img src="images/akcija-1.jpg" alt="" />
+          <h4>AVATAR: PUT VODE - ULAZNICE U PRODAJI!</h4>
+          <p>OD SRIJEDE, 14. DECEMBRA</p>
+        </div>
+      </div>
+    </div>
+
+    <!-----------footer------------->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Skinite nasu aplikaciju!</h3>
+            <div class="app-logo">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo.png" alt="" />
+            <p>Movie Time Podgorica 2022</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Korisni linkovi</h3>
+            <ul>
+              <li>Bonus kartica</li>
+              <li>Nagrade</li>
+              <li>Aktuelni dogadjaji</li>
+              <li>Trejleri</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Zapratite nas</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Linkedin</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">C 2022 Univerzitet Donja Gorica</p>
+    </section>
+    <script src="js/spisakFilmova.js"></script>
+  </body>
+</html>
